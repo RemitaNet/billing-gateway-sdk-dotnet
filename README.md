@@ -1,10 +1,11 @@
-# REMITA BILLER SDK .NET
+# Remita Biller SDK .net
 
 ---
 - [Overview](#Overview)
 - [Installation](#Installation)
 - [Usage](#Usage)
 - [Contributing](#Contributing)
+- [License](License)
 
 ---
 ## Overview
@@ -15,7 +16,7 @@ Integrating to Remita for Biller payments SDK enables your customers make paymen
 
 The process involves your customers selecting a biller to pay via your platform. They will supply payment details and confirm the details so you can debit their account with AmountDue to credit a designated Funds Holding Account. Your customers will be emailed Remita receipts (which are FGN MDA-recognized for TSA-bound payments) for each transaction.
 
-### PREREQUISITES
+### Prerequisites
 - Prior to using the SDK, you need to set up an integration profile on www.remita.net. Each  method call will require you to pass the Public key/Secret key. Note that these values have to be set in the header for any request.
 Your public and secret keys are located at the Billing page at your profile. After you login, click ‘Setup Billing’ at your dashboard >> click ‘Proceed’ on the ‘Yes’ option for the integration question that comes up >> to display the Public/Secret key.
 - .NET 2.0 or later
@@ -299,7 +300,7 @@ After you have debit the customer with the RRR amount (amountDue) to process the
 | extendedData | List< object>|
 
 ### Useful links
-* Join our Slack Developer/Support channel on [slack](http://bit.ly/RemitaDevSlack)
+* Join our Slack Developer/Support channel on [Slack.](http://bit.ly/RemitaDevSlack)
     
 ### Support
 - For all other support needs, support@remita.net
@@ -316,3 +317,9 @@ Fork the repository.
 4. Submit a Pull Request (PR).
 
 Thank you!
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
